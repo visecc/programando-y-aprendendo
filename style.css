@@ -11,6 +11,9 @@
 .btn-12 {
   -webkit-tap-highlight-color: transparent;
   -webkit-appearance: button;
+appearance: button;
+  -webkit-appearance: button;
+
   background-color: #000;
   background-image: none;
   color: #fff;
@@ -22,7 +25,10 @@
   font-weight: 900;
   line-height: 1.5;
   margin: 0;
+
   -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+mask-image: radial-gradient(#000, #fff); /* Adicione esta linha */
+
   padding: 0;
   text-transform: uppercase;
 }
@@ -37,7 +43,7 @@
 
 .btn-12 svg {
   display: block;
-  vertical-align: middle;
+
 }
 
 .btn-12 [hidden] {
