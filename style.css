@@ -105,10 +105,5 @@ mask-image: radial-gradient(#000, #fff); /* Adicione esta linha */
        border-width: 5px;
        border-color:violet
     }
-.greenText{
-  color: green;
 
-}
-.redText{
-    color: red;
-}
+    
